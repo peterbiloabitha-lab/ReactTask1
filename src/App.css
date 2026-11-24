@@ -1,0 +1,29 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #b5e6f7;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 35px;
+  color: #222;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
